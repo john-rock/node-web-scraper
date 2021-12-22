@@ -1,6 +1,6 @@
 {
-  "name": "otdb-scrape",
-  "version": "1.0.0",
+  "name": "node-web-scraper",
+  "version": "0.0.1",
   "description": "Scrapes data from reference",
   "main": "index.js",
   "scripts": {
