@@ -1,0 +1,21 @@
+{
+  "name": "otdb-scrape",
+  "version": "1.0.0",
+  "description": "Scrapes data from reference",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node index.js",
+    "build": "npm run build:clean && npm run build:copy && npm run build:webpack",
+    "build:clean": "rm -rf dist",
+    "build:copy": "cp -r src/public dist"
+  },
+  "author": "John Rock",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "json2csv": "^5.0.6",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
